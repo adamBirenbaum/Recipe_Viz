@@ -1,0 +1,54 @@
+Vessels:
+  - vessel:
+      name: Large Bowl
+      Steps:
+        - step:
+            Ingredients:
+              - 1/2 head Napa cabbage, thinly sliced
+              - salt
+            duration: 1
+            text: Massage salt into cabbage. Set aside
+  - vessel:
+      name: Dutch Oven
+      Steps:
+        - step:
+            Ingredients:
+              - 1 T. EVOO or Coconut oil
+              - 1 lb ground pork
+            duration: 4
+            heat: Medium-High
+            text: Brown ground pork
+        - step:
+            Ingredients:
+              - 1 onion, thinly sliced
+            duration: 3
+            heat: Medium-High
+            text: Add onion, season with salt, and cook stirring occasionally
+        - step:
+            Ingredients:
+              - 2" ginger, grated
+              - 1 serrano chile, thinly sliced
+              - 6 garlic cloves, thinly sliced
+              - 2 tsp. turmeric
+            duration: 5
+            heat: Medium
+            text: Add Ingredients, cook until softened and fragrant
+        - step:
+            Ingredients:
+              - 10 oz of coconut milk
+              - 1/2 c. water
+            duration: 5
+            heat: Medium
+            text: Cook, stirring occasionally until slightly thickened
+        - step:
+            Ingredients:
+              - salted cabbage
+              - lime wedges
+              - greek yogurt
+              - cilantro
+              - coconut flakes
+            text: Serve with rice and top with any of the above ingredients
+Title: Turmeric Coconut Curry with Pork
+Servings: 4
+Duration: 25
+

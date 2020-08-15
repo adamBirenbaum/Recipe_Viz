@@ -1,0 +1,44 @@
+Vessels:
+  - vessel:
+      name: Dutch Oven
+      Steps:
+        - step:
+            Ingredients:
+              - 1/4 c. olive oil
+              - 4 garlic cloves, chopped
+              - 1 large onion, chopped
+              - 2" ginger, finely chopped
+            duration: 5
+            heat: Medium
+            text: Heat oil, add ingredients and stir occasionally
+        - step:
+            Ingredients:
+              - 1 1/2 tsp turmeric
+              - 1 tsp red-pepper flakes
+              - 2 (15-oz) cans chickpeas, drained and rinsed
+            duration: 10
+            heat: Medium
+            text: Add ingredients, cook stirring frequently
+        - step:
+            Ingredients:
+              - 2 (15-oz) cans coconut milk
+              - 2 c. chicken stock
+            duration: 30
+            heat: Medium-Low
+            text: Crush the chickpeas with a wooden spoon and add the liquids. Simmer until thickened
+        - step:
+            Ingredients:
+              - 1 bunch Swiss chard, kale or collard greens, torn into bite-size pieces
+            duration: 5
+            heat: Low
+            text: Add greens and cook until wilted
+        - step:
+            Ingredients:
+              - Mint or cilantro for serving
+              - Greek yogurt
+              - Toasted pita (optional)
+            text: Serve with optional toppings
+Title: Spiced Chickpea Stew with Coconut and Turmeric
+Servings: 4-5
+Duration: 55
+

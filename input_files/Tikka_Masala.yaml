@@ -1,0 +1,79 @@
+Vessels:
+  - vessel:
+      name: Dutch Oven
+      Steps:
+        - step:
+            Ingredients:
+              - 2 Tbl. Butter
+              - 1 White Onion finely diced
+            duration: 5
+            heat: Medium
+            text: Melt butter in Dutch oven, and cook onions until translucent
+        - step:
+            Ingredients:
+              - 4 cloves Garlic minced
+              - 1 T. Cumin
+              - 2 T. Paprica
+              - 1/2 tsp. Turmeric
+              - 1 T. Tomato paste
+            duration: 1
+            heat: Medium
+            text: 'Add ingredients and stir to combine'
+        - step:
+            Ingredients:
+              - 14 oz Tomato Sauce
+              - 1 C. whole milk
+            duration: 2
+            heat: Medium-High
+            text: Add liquids and bring to simmer
+        - step:
+            duration: 20
+            heat: Medium-Low
+            text: Maintain gentle simmer until chicken is cooked through.
+        - step:
+            text: serve with rice
+  - vessel:
+      name: Cast Iron
+      Steps:
+        - step:
+            Ingredients:
+              - 2 Canola Oil
+              - 2 boneless skinless chicken breast, cut into bite sized pieces
+            duration: 10
+            heat: Medium-High
+            text: Brown chicken on all sides
+        - step:
+            transfer: Dutch Oven
+            text: 'Transfer chicken to sauce'
+            transfertime: 10
+Title: Chicken Tikka Masala
+Servings: 4-6
+Duration: 60
+
+
+
+
+
+# defaults: &defaults
+#    adapter:  postgres
+#    host:     localhost
+
+# development:
+#    database: myapp_development
+#    <<: *defaults
+
+# test:
+#    database: myapp_test
+#    <<: *defaults
+
+#paper:
+#    uuid: 8a8cbf60-e067-11e3-8b68-0800200c9a66
+#    name: On formally undecidable propositions of  Principia Mathematica and related systems I.
+#    author: Kurt Gödel.
+# tags:
+#    - tag:
+#       uuid: 98fb0d90-e067-11e3-8b68-0800200c9a66
+#       name: Mathematics
+#    - tag:
+#       uuid: 3f25f680-e068-11e3-8b68-0800200c9a66
+#       name: Logic

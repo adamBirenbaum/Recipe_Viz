@@ -1,0 +1,101 @@
+Vessels:
+  - vessel:
+      name: Large Pot
+      Steps:
+        - step:
+            Ingredients:
+              - 10 oz pasta
+            duration: 10
+            text: Cook pasta according to package instructions in salted water until al dente.
+        - step:
+            text: Transfer pasta and 1 cup pasta water to Dutch Oven
+            transfer: Dutch Oven
+            transfertime: 19
+  - vessel:
+      name: Dutch Oven
+      Steps:
+        - step:
+            Ingredients:
+              - 1/4 c. olive oil
+              - 6 large shallots, thinly sliced
+              - 5 garlic cloves, thinly sliced
+            duration: 15
+            heat: Medium
+            text: Add shallots and garlic to hot oil. Season with salt and cook until carmelized
+        - step:
+            Ingredients:
+              - 1 tsp red-pepper flakes
+              - 2 oz can anchovy filets, drained
+            duration: 2
+            heat: Medium
+            text: Stir to melt anchovies into the shallots
+            xshift: -10
+        - step:
+            Ingredients:
+              - 5 oz tomato paste
+            duration: 2
+            heat: Medium
+            text: Cook until tomato paste darkens.
+            xshift: -10
+        - step:
+            text: Transfer half of mixture to container to be used in another batch of pasta or smeared over veggies or chicken.
+            xshift: -10
+        - step:
+            heat: Medium-Heat
+            duration: 4
+            text: Fold in pasta, pasta water, and stir continuously to emulsify sauce.
+            xshift: -10
+        - step:
+            Ingredients:
+              - 1 cup parsley leaves chopped
+              - EVOO
+            text: Divide pasta among bowls and top with parsley and EVOO
+Title: Carmelized Shallot Pasta
+Servings: 4
+Duration: 30
+Style:
+  Vessel:
+    height: 75
+    vessel_spacing_factor: 1
+  Ingredients:
+    words_per_line: 5
+    text_size: 10
+    text_weight: normal
+    text_font: DejaVu Serif
+    text_padding: 0
+  Step_Text:
+    words_per_line: 4
+    text_size: 8
+    text_weight: bold
+    text_font: DejaVu Serif
+    text_padding: 0
+  Step_Duration_Text:
+    text_size: 10
+    text_weight: normal
+    text_font: DejaVu Serif
+    text_padding: 0
+  Title:
+    text_size: 30
+    text_weight: normal
+    text_font: DejaVu Serif
+    text_height: 0.9
+    text_padding: 0
+  About:
+    text_size: 14
+    text_weight: normal
+    text_font: DejaVu Serif
+    text_height_diff: 0.01
+    text_padding: 0
+  Global:
+    xlim_lower: -.05
+    xlim_upper: 1.05
+    ylim_lower: 0
+    ylim_upper: 1
+    time_line_padding: 0.01
+    time_line_stretch: 
+  Arrow:
+    scale: 0.2
+    xscale: .035
+
+
+

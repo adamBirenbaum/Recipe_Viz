@@ -1,0 +1,52 @@
+Vessels:
+  - vessel:
+      name: Large Pot
+      Steps:
+        - step:
+            Ingredients:
+              - Salted Water
+            duration: 5
+            heat: High
+            text: Bring water to a low boil
+        - step:
+            Ingredients:
+              - 3/4 lb dry spaghetti
+            duration: 8
+            heat: Medium
+            text: 'Cook pasta until al dente'
+        - step:
+            text: Reserve 1/2 cup of pasta water and drain.
+  - vessel:
+      name: Cast Iron
+      Steps:
+        - step:
+            Ingredients:
+              - 2 T. Canola Oil
+              - 4 oz thick-cut diced
+            duration: 10
+            heat: Medium-High
+            text: Crips the bacon
+        - step:
+            text: Reserve Bacon
+
+  - vessel:
+      name: Small Bowl
+      Steps:
+        - step:
+            Ingredients:
+              - 3 T. chili garlic sauce
+              - 2 T. miso
+              - 2 T. hot water from pot
+            duration: 1
+            text: Whisk together
+        - step:
+            Ingredients:
+              - 3 eggs
+            duration: 1
+            text: Beat the eggs into the sauce
+        - step:
+            text: Add sauce to cooked pasta
+Title: Spicy Miso spaghetti
+Servings: 4-6
+Duration: 30
+
